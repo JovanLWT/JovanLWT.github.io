@@ -1,0 +1,134 @@
+
+:root {
+    --backgroundprimary: rgb(230, 230, 230);
+    --highlight-primary: #085700;
+}
+
+body {
+
+}
+
+.title-container {
+   height: 40vh;
+   background-color: var(--backgroundprimary);
+}
+
+.title-hello {
+   font-family: 'ZCOOL QingKe HuangYou', cursive;
+   font-size: 10rem;
+   font-weight: 700;
+}
+
+.title-gsab {
+    color: var(--backgroundprimary);
+    background-color: var(--highlight-primary);
+
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+
+    postion: relative;
+    top: -2.5rem;
+}
+
+.title-tag {
+    font-family: 'Long Cang', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+
+    postion: relative;
+    top: -2.5rem;
+}
+
+.about-me-container {
+    width: 80vw;
+    height: 50vh;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-left: 10vw;
+
+    background-color: var(--highlight-primary);
+}
+
+.about-me-image {
+    width: 20vw;
+    height: 20vw;
+
+    border-radius: 100%;
+
+    box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+    color: var(--backgroundprimary);
+
+    font-size: 1.15rem;
+    font-family: 'Permanent Marker', cursive;
+
+    text-align: left;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 1.5% !important;
+  }
+
+.contact-me-container {
+    margin-top: 10vh;
+
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.achivements-container {
+    width: 80vw;
+    margin-left: 10vw;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.achievements {
+    font-size: 1.2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.achievements-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
+
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.achievements-image {
+      width: 20vw;
+      height: 20vw;
+
+      border-radius: 100%;
+
+      box-shadow: 10px 5px 10px black;
+}
+
+.achievements-title-container {
+          width: 80vw;
+          height: 50vh;
+
+          padding-top: 20px !important;
+          padding-bottom: 20px !important;
+          margin-left: 10vw;
+
+          background-color: #996204;
+
+}
+
+.contact-me-icon {
+      width: 10vw;
+      height: 10vw;
+
+      border-radius: 100%;
+
+      box-shadow: 10px 5px 10px black;
+}
